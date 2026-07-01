@@ -350,7 +350,7 @@ function convertUSDTToGTR(
     );
 
     (bool success, bytes memory data) =
-        usdmToken.call(
+        usdtToken.call(
             abi.encodeWithSignature(
                 "transferFrom(address,address,uint256)",
                 msg.sender,
