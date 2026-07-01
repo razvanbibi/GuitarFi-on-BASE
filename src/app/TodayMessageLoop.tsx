@@ -50,7 +50,7 @@ export default function TodayMessageLoop({ isDarkMode, account }: Props) {
     },
     {
       duration: 5000,
-      first: "Put your CELO to work",
+      first: "Put your BASE to work",
       second: "Deposit, withdraw and stay liquid anytime.",
     },
     {

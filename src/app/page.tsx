@@ -17,7 +17,7 @@ export default function LandingPage() {
           GuitarFi
         </div>
         <Link
-          href="/app"
+          href="/maintenance"
           className="
             rounded-full
             bg-white
@@ -61,13 +61,13 @@ export default function LandingPage() {
               mx-auto 
             "
           >
-            The SocialFi & GameFi Hub built on Celo.
+            The SocialFi & GameFi Hub built on Base.
             Stake, play tunes, earn rewards and unlock
             exclusive utilities with Guitar Token.
           </p>
           <div className="mt-10 flex justify-center">
             <Link
-              href="/app"
+              href="/maintenance"
               className="
   group
   relative

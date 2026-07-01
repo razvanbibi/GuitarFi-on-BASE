@@ -6086,7 +6086,7 @@ active:scale-[0.98]
             </div>
 
             <p className="mb-2 text-[11px] text-slate-300">
-              GuitarFi is a miniapp where you Gm to the Celo network every day to increase your streak and unlock GTR rewards.
+              GuitarFi is a miniapp where you Gm to the Base network every day to increase your streak and unlock GTR rewards.
             </p>
             <p className="text-[11px] text-slate-400">
               If you want, you can also support the project by tipping Mento Dollar (USDm) from the Support creator section below. 💙
