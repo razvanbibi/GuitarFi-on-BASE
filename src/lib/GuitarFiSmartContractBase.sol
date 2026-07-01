@@ -338,7 +338,7 @@ function playTune()
 
 // ---------- CONVERT USDT TO GTR ----------
 
-function convertUSDMToGTR(
+function convertUSDTToGTR(
     uint256 usdmAmount
 )
     external
