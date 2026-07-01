@@ -345,7 +345,7 @@ function convertUSDTToGTR(
     notPaused
 {
     require(
-        usdmAmount > 0,
+        usdtAmount > 0,
         "Invalid amount"
     );
 
