@@ -3,18 +3,18 @@ import "@fontsource/geist";
 import "@fontsource/geist-mono";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "GuitarFi",
-  description: "Daily check-ins on Celo to grow your streak and earn rewards",
+  title: "GuitarFi on BASE",
+  description: "",
   openGraph: {
-    title: "GuitarFi",
+    title: "GuitarFi on BASE",
     description:
-      "Building a daily habit on Celo",
+      "Building a daily habit on BASE",
     images: ["/og-banner.png"],
   },
   other: {
   
     "talentapp:project_verification":
-  "bc7485140d501a67192bfffd6736f5d2159395e1354b3b2cf80467fc4a6c5fcb8e6d0ffbdf4512fc67e4fb6b8b9aec6a5031138367093da1ab076a3b32d0a29d",
+  "0f75184a3c862d001e9097304aad806a4bc100dadd5870723181d3baf887470637c387d44727536c32ba618c1f2556868f6369c48c19f69a5d1f73df6d5145b2",
   },
 };
 export default function RootLayout({
