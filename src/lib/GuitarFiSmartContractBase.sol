@@ -355,13 +355,13 @@ function convertUSDTToGTR(
                 "transferFrom(address,address,uint256)",
                 msg.sender,
                 address(this),
-                usdmAmount
+                usdtAmount
             )
         );
 
     require(
         success,
-        "USDM transfer failed"
+        "USDT transfer failed"
     );
 
     if (data.length > 0) {
@@ -372,8 +372,8 @@ function convertUSDTToGTR(
     }
 
     uint256 gtrAmount =
-        usdmAmount *
-        USDM_TO_GTR;
+    usdtAmount *
+    USDT_TO_GTR;
 
     _mintGTR(
         msg.sender,
